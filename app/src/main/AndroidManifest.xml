@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a100_20_">
+    <!--위치정보-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.100_20_">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--놀거리화면-->
+        <activity android:name=".Main" />
+        <activity android:name=".Choice3_Activity"
+            android:parentActivityName=".Main">
+        </activity>
+        <activity android:name=".Movie"
+            android:parentActivityName=".Choice3_Activity">
+        </activity>
+        <activity android:name=".Depart"
+            android:parentActivityName=".Choice3_Activity">
+        </activity>
+        <activity android:name=".Activity"
+            android:parentActivityName=".Choice3_Activity">
+        </activity>
+        <activity android:name=".Picture"
+            android:parentActivityName=".Choice3_Activity">
+        </activity>
+        <activity android:name=".Movie_1"
+            android:parentActivityName=".Movie">
+        </activity>
+        <activity android:name=".Movie_2"
+            android:parentActivityName=".Movie">
+        </activity>
+
+
+        <!--맛집화면-->
+        <activity android:name=".Choice1_Activity"></activity>
+        <activity android:name=".Xmlfile"></activity>
+        <activity android:name=".Xxmlfile"></activity>
+        <activity android:name=".Xxxmlfile"></activity>
+        <activity android:name=".Bunfile"></activity>
+        <activity android:name=".Bbunfile"></activity>
+        <activity android:name=".Bbbunfile"></activity>
+        <activity android:name=".Kenfile"></activity>
+        <activity android:name=".Kkenfile"></activity>
+        <activity android:name=".Kkkenfile"></activity>
+
+        <!--카페화면-->
+        <activity android:name=".Choice2_Activity"/>
+        <activity android:name=".C1Activity"/>
+        <activity android:name=".C2Activity"/>
+        <activity android:name=".C3Activity"/>
+        <activity android:name=".C4Activity"/>
+        <activity android:name=".C5Activity"/>
+        <activity android:name=".C6Activity"/>
+        <activity android:name=".C7Activity"/>
+        <activity android:name=".C8Activity"/>
+        <activity android:name=".C9Activity"/>
+        <activity android:name=".C10Activity"/>
+        <activity android:name=".C11Activity"/>
+
+        <!--커뮤니티화면-->
+        <activity android:name=".Choice4_Acitivity"/>
+        <activity android:name=".FriendWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+        <activity android:name=".ClubWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+        <activity android:name=".FestivalWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+        <activity android:name=".EtcWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+        <activity android:name=".InformationsharingWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+        <activity android:name=".RestaurantWrite"
+            android:parentActivityName=".Choice4_Acitivity"/>
+
+    </application>
+
+</manifest>

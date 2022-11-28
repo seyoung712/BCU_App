@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">100_20_</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#61B4FF</item> <!--액션바 색상-->
+        <item name="colorPrimaryDark">#61A0FF</item><!--상태바 색상-->
+    </style>
+</resources>

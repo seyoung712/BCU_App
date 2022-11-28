@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--리뷰등록-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="9">
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"/>
+            <EditText
+                android:id="@+id/edt_insert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="리뷰를 등록하세요.(20자 이내)"
+                android:lines="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_insert"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="등록"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="onButtonClicked1"/>
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="새로고침"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="onButtonClicked2"/>
+            <Button
+                android:id="@+id/btn_init"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초기화"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="onButtonClicked3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--리뷰목록-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--별점-->
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+        <!--리뷰내용-->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="6"/>
+        <!--등록날짜-->
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"/>
+
+    </LinearLayout>
+
+</LinearLayout>

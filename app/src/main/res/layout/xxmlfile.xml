@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/food1" />
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="217dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자라쿠 라멘"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="53dp"
+            android:text="위치 : 충청남도 천안시 동남구 문암로 83 오성빌딩 1층"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTextClicked"
+            android:text="(지도보기)"
+            android:textColor="#0000FF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운영시간:매일11:00-21:00
+                          대표음식 돈코츠라멘-6500원"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="평점: 4.4"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="261dp"
+            android:layout_height="46dp"
+            android:numStars="5"
+            android:paddingLeft="20dp"
+            android:stepSize="0.1"
+            android:rating="4.4" />
+
+        <LinearLayout
+            android:layout_width="41dp"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

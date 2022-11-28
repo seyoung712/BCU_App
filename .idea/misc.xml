@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/drawable/ic_baseline_business_center_24.xml" value="0.26153846153846155" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/activity.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/bbbunfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/bbunfile.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/bunfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/c1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/c10.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/c11.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/c3.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/c9.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/choice1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/choice2.xml" value="0.1265625" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/choice3.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/choice4.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/club_write.xml" value="0.2453125" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/depart.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/informationsharing_write.xml" value="0.2453125" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/kenfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/kkenfile.xml" value="0.2" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/kkkenfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/movie.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/movie_1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/movie_2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/mylocation.xml" value="0.12132725430597771" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/picture.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/review_movie.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/weather.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/xmlfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/xxmlfile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/layout/xxxmlfile.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/hsj00/AndroidStudioProjects/100_20_/app/src/main/res/menu/homemenu.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

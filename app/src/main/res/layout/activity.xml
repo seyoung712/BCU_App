@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--1. 애로우팩토리-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/c1"/>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="애로우팩토리"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 천안 동남구 청수 14로 56 8층"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="4.5"/>
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--구분선-->
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55000000"/>
+
+            <!--2. 킬링 스페이스-->
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/c2"/>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="킬링 스페이스"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 천안 서북구 부성 1길 3 5층"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="4.0"/>
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--구분선-->
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55000000"/>
+
+            <!--3. 시지락볼링클럽-->
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/c3"/>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="시지락볼링클럽"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 충남 천안시 동남구 만남로 58"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="4.5"/>
+                    <TextView
+                        android:id="@+id/text32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

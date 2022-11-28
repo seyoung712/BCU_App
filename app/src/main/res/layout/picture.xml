@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--1. 인생네컷 천안두정먹거리공원점-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/d1"/>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="인생네컷 천안두정먹거리공원점"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 충남 천안시 서북구 원두정2길 21 1층"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="3"/>
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--구분선-->
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55000000"/>
+
+            <!--2. 인생네컷 천안신부점-->
+            <!--수정-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/d2" />
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="인생네컷 천안신부점"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 충남 천안시 동남구 먹거리10길 20 1층"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="3"/>
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--구분선-->
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55000000"/>
+
+            <!--3. 셀픽스 천안두정점-->
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/d3"/> <!--수정-->
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="셀픽스 천안두정점"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 충남 천안시 서북구 오성로 71 107호"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="3"/>
+                    <TextView
+                        android:id="@+id/text32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--구분선-->
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#55000000"/>
+
+            <!--4. 셀픽스 천안신부동점-->
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/d4"/> <!--수정-->
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="셀픽스 천안신부동점"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 : 충남 천안시 동남구 먹거리10길 9"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/text41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(지도 보기)"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"
+                    android:onClick="onTextClicked"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RatingBar
+                        android:id="@+id/star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="3"/>
+                    <TextView
+                        android:id="@+id/text42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="평가 보기"
+                        android:textSize="15sp"
+                        android:textColor="#0000FF"
+                        android:onClick="onTextClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

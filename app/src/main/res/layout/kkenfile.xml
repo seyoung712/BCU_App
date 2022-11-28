@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/food5" />
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="236dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="훌랄라참숯바베큐"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="53dp"
+            android:text="위치 : 충남 천안시 동남구
+            각원사길 69-10 락희원룸"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTextClicked"
+            android:text="(지도 보기)"
+            android:textColor="#0000FF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운영시간:매일15:00-01:00
+                          대표음식: 불갈비참숯바베큐-19,000원
+                          홍갈비참숯바베큐-19,000원"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="평점: 4.3"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:paddingLeft="20dp"
+            android:rating="4.3"
+            android:stepSize="0.1" />
+
+        <LinearLayout
+            android:layout_width="41dp"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

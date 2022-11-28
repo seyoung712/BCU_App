@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvTop"
+            android:text="##  카페페포니 ##"
+            android:textSize="25sp"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="120dp"
+            android:layout_height="240dp"
+            android:src="@drawable/cafe2"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="평가:"
+            android:paddingLeft="40dp"
+            android:textSize="25dp"/>
+
+        <RatingBar
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:paddingLeft="20dp"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:rating="4.65"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="충남 천안시 동남구 안서동 335-1
+               우편번호:31065"
+        android:textSize="20dp"
+        android:paddingLeft="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="금08:00 - 새벽 00:00
+  토11:00 - 새벽 00:00
+ 일11:00 - 새벽 00:00
+ 월08:00 - 새벽 00:00
+ 화08:00 - 새벽 00:00
+ 수08:00 - 새벽 00:00
+ 목08:00 - 새벽 00:00"
+        android:textSize="20dp"
+        android:paddingLeft="40dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="40dp">
+        <Button
+            android:id="@+id/btnC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지도 보기"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnC2A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="더 보기"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnC2B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text=" BACK  " />
+
+    </LinearLayout>
+
+
+</TableLayout>
